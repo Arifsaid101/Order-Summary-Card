@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.top-wave {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.order-container {
+  margin: 200px auto;
+  background-color: white;
+  width: 23.5%;
+  text-align: center;
+  border-radius: 7%;
+  overflow: auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.image-1 {
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+}
+
+.order-summary {
+  font-weight: 900;
+}
+
+.main-text {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+  color: #706f70;
+}
+
+.annual {
+  font-weight: bold;
+  width: 60%;
+}
+
+.price {
+  color: #706f70;
+  width: 60%;
+}
+
+.payment {
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.music {
+  float: left;
+  display: inline-block;
+  margin-top: 22px;
+  margin-left: 15px;
+}
+
+.change {
+float:right;
+display: inline-block;
+margin-right: 15px;
+
+}
+
+.change:hover {
+  color: #8054f7;
+  text-decoration: none;
+}
+
+.btn-1 {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4c47ed;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn-1:hover {
+  background: #8054f7;
+  text-decoration: none;
+}
+
+
+.cancel {
+  color: #706f70;
+  font-weight: 900;
+}
+
+.cancel:hover {
+  color: black;
+}
+.attribution{
+  text-align: center;
+}
